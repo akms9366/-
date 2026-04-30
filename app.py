@@ -109,36 +109,66 @@ def format_as_script(raw_text: str, language_code: str) -> str:
 st.set_page_config(
     page_title="YouTube 文字起こし & 台本ジェネレーター",
     page_icon="🎬",
-    layout="wide",
+    layout="centered",
 )
 
-st.title("🎬 YouTube 文字起こし & 台本ジェネレーター")
-st.caption("YouTubeのURLを入力するだけで、文字起こしと読みやすい台本を自動生成します。")
+st.markdown(
+    """
+    <style>
+    /* --- モバイル向け共通調整 --- */
+    html, body, [data-testid="stAppViewContainer"] {
+        font-size: 16px;
+    }
+    /* サイドバーを非表示（設定はメイン画面に移動） */
+    [data-testid="stSidebar"] { display: none; }
+    [data-testid="collapsedControl"] { display: none; }
 
-with st.sidebar:
-    st.header("⚙️ 設定")
+    /* ヘッダー余白を詰める */
+    .block-container {
+        padding-top: 1.5rem !important;
+        padding-bottom: 2rem !important;
+        max-width: 680px !important;
+    }
+
+    /* ボタンをタップしやすく */
+    .stButton > button {
+        height: 3rem;
+        font-size: 1.05rem;
+    }
+
+    /* テキスト入力のフォントサイズをiOS自動ズーム防止の16px以上に */
+    input[type="text"], input[type="password"], textarea {
+        font-size: 16px !important;
+    }
+
+    /* ダウンロードボタン */
+    .stDownloadButton > button {
+        width: 100%;
+        height: 2.8rem;
+        font-size: 1rem;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.title("🎬 YouTube 台本ジェネレーター")
+st.caption("YouTubeのURLを入力するだけで文字起こしと台本を自動生成します。")
+
+with st.expander("⚙️ API Key 設定", expanded=not bool(os.getenv("ANTHROPIC_API_KEY"))):
     api_key_input = st.text_input(
         "Anthropic API Key",
         type="password",
         value=os.getenv("ANTHROPIC_API_KEY", ""),
-        help="claude.ai または console.anthropic.com で取得したAPIキーを入力してください。",
+        placeholder="sk-ant-...",
+        help="console.anthropic.com で取得したAPIキーを入力してください。",
     )
     if api_key_input:
         os.environ["ANTHROPIC_API_KEY"] = api_key_input
 
-    st.divider()
-    st.markdown(
-        "**使い方**\n"
-        "1. APIキーを入力（または `.env` に設定）\n"
-        "2. YouTube URLを貼り付ける\n"
-        "3. 「生成する」をクリック\n"
-        "4. 文字起こし・台本をコピーして活用！"
-    )
-
 url_input = st.text_input(
     "YouTube URL",
     placeholder="https://www.youtube.com/watch?v=...",
-    label_visibility="visible",
 )
 
 generate_btn = st.button("▶ 生成する", type="primary", use_container_width=True)
@@ -209,7 +239,7 @@ if generate_btn:
         st.text_area(
             "タイムスタンプ付き文字起こし",
             value=raw_text,
-            height=400,
+            height=300,
             label_visibility="collapsed",
         )
         st.download_button(
