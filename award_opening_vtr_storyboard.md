@@ -1,15 +1,29 @@
-# 企業アワード オープニングVTR 絵コンテ & 画像生成プロンプト集
+# ◯◯AWARDS 2026 オープニングVTR 絵コンテ & 画像生成プロンプト集
 
 ---
 
-## 全体構成概要
+## 全体設計
 
 | 項目 | 内容 |
 |------|------|
-| 尺 | 約90〜120秒 |
-| トーン | 映画的・シネマティック、ドラマチック、格調高い |
-| カラーパレット | ディープネイビー × ゴールド × ホワイト |
-| BGM感 | オーケストラ → エレクトロニクス融合。静寂から壮大なクライマックスへ |
+| 尺 | 約120秒（2分） |
+| テーマカラー | **#005bac**（ロイヤルブルー）× ホワイト × ゴールド |
+| キーワード | **愛 · 尊敬 · 努力** |
+| トーン | 疾走感のある編集 × シネマティック × 高揚感 |
+| BGM感 | アップテンポなオーケストラ電子融合→クライマックスへ一気に加速 |
+| 最終カット | スタジオ映像にタイトルロゴがドーンと出現 → クールに消えていく |
+
+---
+
+## カラーパレット定義
+
+```
+メインブルー   : #005bac
+ホワイト       : #FFFFFF
+ゴールド       : #C9A84C
+ダークネイビー : #001f3f
+ライトブルー   : #4d94d4（ハイライト）
+```
 
 ---
 
@@ -17,279 +31,407 @@
 
 ---
 
-### SCENE 01 ― 暗転・序章（0〜8秒）
+### SCENE 01 ― イントロダクション：土地と期待感（0〜10秒）
 
-**映像イメージ**
-完全な暗闇。中央から極細の光の線が1本走り、ゆっくりと広がる。宇宙空間のような静寂感。
+**映像コンセプト**
+開幕は「場所」の力で始まる。伝統と革新の対比を0秒から見せる。
 
-**演出ポイント**
-- BGMはほぼ無音（低周波のドローン音のみ）
-- 光の粒子が極めてゆっくり漂う
-- 社名・ロゴは一切表示しない
+**カット割り**
 
-**テキストオーバーレイ**
-なし
-
-**画像生成プロンプト（英語）**
-```
-A single thin ray of golden light emerging from absolute darkness, 
-cinematic 16:9, deep space atmosphere, micro dust particles floating 
-in slow motion, anamorphic lens flare, ultra-wide shot, 
-color palette: near-black background with one warm gold streak, 
-photorealistic, 8K, dramatic mood, award ceremony opening title sequence style
-```
-
----
-
-### SCENE 02 ― パーティクル爆発・エネルギーの目覚め（8〜20秒）
-
-**映像イメージ**
-光の粒子が中央に集まり、爆発するように四方へ広がる。金色と白色の粒子が渦を巻き、エネルギーが高まっていく感覚。
+| カット | 秒数 | 内容 |
+|--------|------|------|
+| 1-A | 0〜3s | 暗転。中央から#005bacの光の波紋が広がる |
+| 1-B | 3〜6s | 街の象徴的建物（タワー・古建築）の空撮。夜明けの空 |
+| 1-C | 6〜8s | 会場外観。観客の列が吸い込まれていく超速ズームアウト |
+| 1-D | 8〜10s | 会場のサイン・エントランスに#005bacのライティング |
 
 **演出ポイント**
-- カメラはゆっくりズームイン
-- BGMのビルドアップ開始
-- 粒子が「人」「建物」「数字」の形を一瞬だけとる（サブリミナル的）
+- 速いズームインとフェードを交互に使用
+- BGM開始：低音のパルスから始まりストリングスが重なる
+- キャプション「愛」の一文字が画面の隅に1秒だけフラッシュ
 
 **テキストオーバーレイ**
-なし
+なし（ロゴ表示は最終シーンに集約）
 
-**画像生成プロンプト（英語）**
+**画像生成プロンプト 1-A（英語）**
 ```
-Explosive burst of golden and white luminous particles expanding 
-from a central point in deep space, cinematic 16:9, dynamic motion 
-blur, swirling energy vortex, particles forming subtle human silhouettes 
-for a split second, deep navy and black background, anamorphic lens 
-flares, ultra-high detail, dramatic volumetric light, 
-award show title sequence aesthetic, photorealistic CGI render
+Abstract expanding ripple of deep royal blue light (#005bac) 
+emerging from center of pure black screen, concentric light rings 
+growing outward, cinematic 16:9, anamorphic lens flare, 
+volumetric light rays, particle dust floating, 
+corporate award ceremony opening title sequence, 
+photorealistic CGI, 8K, dramatic and elegant
 ```
 
----
-
-### SCENE 03 ― 都市夜景・舞台設定（20〜30秒）
-
-**映像イメージ**
-高層ビルが立ち並ぶ夜の都市を、超低空から上昇しながら俯瞰するカメラ。ビルの窓の光がゴールドに輝く。
-
-**演出ポイント
-- ドローン視点。地上→空へ上昇するような高揚感
-- 夜景がゴールドのトーンに統一される
-- BGMにストリングスが加わる
-
-**テキストオーバーレイ**
-なし（または薄い文字で「2025」）
-
-**画像生成プロンプト（英語）**
+**画像生成プロンプト 1-B（英語）**
 ```
-Cinematic aerial drone shot rising from ground level above a glittering 
-nighttime city skyline, buildings with warm golden window lights, 
-deep navy sky, ultra-wide anamorphic lens, motion blur on city lights, 
-god rays from skyscrapers, color grade: teal shadows / gold highlights, 
-epic establishing shot, photorealistic, 8K, corporate award ceremony 
-opening mood, sense of grandeur and achievement
+Cinematic aerial drone shot at dawn over a historic city with 
+traditional architecture pagoda tower and modern cityscape, 
+golden sunrise light meeting deep blue sky, 
+ultra-wide anamorphic lens with lens flare, 
+motion blur on city below showing movement, 
+color grade: royal blue (#005bac) shadows with warm gold highlights, 
+breathtaking establishing shot, 8K photorealistic
+```
+
+**画像生成プロンプト 1-C（英語）**
+```
+Extreme speed zoom-out from a grand venue entrance gate 
+illuminated in royal blue (#005bac) spotlights at dusk, 
+long queue of elegantly dressed audience members flowing into 
+the venue, motion blur suggesting energy and anticipation, 
+cinematic color grade, anamorphic lens, 
+corporate awards event aesthetic, photorealistic 8K
 ```
 
 ---
 
-### SCENE 04 ― 人物モンタージュ①：挑戦と努力（30〜45秒）
+### SCENE 02 ― レッドカーペット：登場と輝き（11〜35秒）
 
-**映像イメージ A：チームで議論する場面**
-モダンなオフィス空間。多様なメンバーがホワイトボードを囲み、熱心に話し合っている。逆光でシルエットが際立つ。
+**映像コンセプト**
+キーワード「**尊敬**」を体現。登壇者一人ひとりを尊厳を持って映し出す。
 
-**画像生成プロンプト A（英語）**
-```
-Silhouetted diverse business team in dynamic discussion around a 
-whiteboard in a modern glass office, dramatic backlight from floor-to-ceiling 
-windows creating rim lighting on their profiles, bokeh city view in background, 
-cinematic color grade (deep teal-blue shadows, warm highlights), 
-35mm film aesthetic, shallow depth of field, 
-corporate achievement visual storytelling, photorealistic
-```
+**カット割り**
 
-**映像イメージ B：一人の人物がデータを見つめる場面**
-夜のオフィス。スクリーンの青い光に照らされた人物がグラフを凝視している。孤独な闘いと集中力を表現。
-
-**画像生成プロンプト B（英語）**
-```
-A single determined professional illuminated only by multiple monitor 
-screens showing data charts and graphs in a dark office at night, 
-cinematic close-up, dramatic side lighting, reflection of graphs 
-visible in their focused eyes, deep shadow, 
-color palette: electric blue screen glow against near-black, 
-photorealistic 8K, intense concentration mood, corporate drama
-```
-
----
-
-### SCENE 05 ― 人物モンタージュ②：成果・突破（45〜58秒）
-
-**映像イメージ A：握手・契約成立**
-ガラス張りの会議室。二人の人物が力強く握手している瞬間。光が差し込み、その手に当たる。
-
-**画像生成プロンプト A（英語）**
-```
-Powerful handshake moment between two business professionals 
-in a sunlit glass conference room, extreme close-up on hands, 
-dramatic shaft of golden natural light hitting the handshake, 
-shallow depth of field blurring suited figures in background, 
-cinematic warm color grade, photorealistic, sense of triumph 
-and partnership, award ceremony visual style
-```
-
-**映像イメージ B：上昇する数字・グラフ**
-抽象的な3Dグラフが暗闇の中で光り輝き、急上昇するアニメーション。数字が飛び交う。
-
-**画像生成プロンプト B（英語）**
-```
-Abstract 3D visualization of business growth charts and data 
-rising dramatically upward in a dark void, glowing golden lines 
-and nodes, holographic data particles, numbers and percentages 
-floating in space, deep navy background, volumetric light rays, 
-cinematic CGI render, corporate achievement data visualization, 
-8K photorealistic, dynamic upward motion energy
-```
-
----
-
-### SCENE 06 ― アワードトロフィー・象徴の登場（58〜72秒）
-
-**映像イメージ**
-暗闇の中でスポットライトが当たり、黄金のトロフィーがゆっくりと回転しながら浮かび上がる。神々しい光の演出。
+| カット | 秒数 | 内容 |
+|--------|------|------|
+| 2-A | 11〜15s | 車から降り立つ瞬間のスローモーション（足元 → 全身へ） |
+| 2-B | 15〜20s | カメラに向かって手を振る笑顔のクローズアップ |
+| 2-C | 20〜25s | フォトスポットでのポージング。フラッシュが激しく明滅 |
+| 2-D | 25〜30s | 複数人のサイン・ファンサービスの断片をフラッシュカットで連打 |
+| 2-E | 30〜35s | フラッシュの白光がトランジションとなり次シーンへ橋渡し |
 
 **演出ポイント**
-- BGMがクライマックスに向けて最高潮へ
-- トロフィーのまわりにパーティクルが舞う
-- スローモーション的な荘厳さ
+- 2-A のみスローモーション（0.3倍速）、他は実速〜1.5倍速
+- フラッシュを場面転換のアクセントとして多用（参照動画の手法を踏襲）
+- 「尊敬」の文字が画面下部に薄く1秒フラッシュ
 
-**テキストオーバーレイ**
-なし（またはトロフィー下に薄く社名）
-
-**画像生成プロンプト（英語）**
+**画像生成プロンプト 2-A（英語）**
 ```
-A majestic golden corporate award trophy slowly rotating in a dramatic 
-spotlight against pure darkness, god rays of golden light emanating 
-from it, shimmering particles floating around it, ultra-detailed 
-metallic surface reflections, cinematic product photography style, 
-anamorphic lens bokeh, deep shadow background, photorealistic 8K, 
-sense of prestige and glory, award ceremony hero shot
+Slow motion close-up of an elegantly dressed award recipient 
+stepping out of a luxury black car onto a blue carpet 
+(royal blue #005bac), camera angle starts at feet rising to full 
+body reveal, dramatic rim lighting, shallow depth of field, 
+paparazzi flash bokeh in background, 
+cinematic 35mm film look, photorealistic, sense of arrival and prestige
 ```
 
----
-
-### SCENE 07 ― 受賞の喜び・人々の表情（72〜82秒）
-
-**映像イメージ A：喜ぶチーム**
-紙吹雪が舞う中、チームメンバーが抱き合い、歓声を上げている。笑顔があふれる瞬間。
-
-**画像生成プロンプト A（英語）**
+**画像生成プロンプト 2-C（英語）**
 ```
-Joyful diverse business team celebrating victory in a grand ballroom, 
-golden confetti falling, embracing each other with genuine happiness, 
-dramatic stage lighting from above, motion blur on falling confetti, 
-cinematic color grade with warm golden tones, shallow depth of field, 
-photorealistic, emotional peak of corporate award ceremony, 
-candid authentic moment
+Award recipient posing confidently at a branded photo wall 
+with royal blue (#005bac) and gold design elements, 
+multiple camera flashes creating stroboscopic white light bursts, 
+motion blur on flash highlights, elegant evening attire, 
+dramatic backlighting creating halo effect, 
+cinematic portrait, photorealistic 8K, 
+corporate awards red carpet aesthetic
 ```
 
-**映像イメージ B：ステージに立つ受賞者（シルエット）**
-大きなスクリーンを背景に、ステージ上でシルエットになった人物がトロフィーを高く掲げる。観客の拍手の光が散る。
-
-**画像生成プロンプト B（英語）**
+**画像生成プロンプト 2-E（英語）**
 ```
-Silhouetted figure standing triumphantly on a grand stage holding 
-a trophy above their head, massive LED screen background with abstract 
-golden light show, audience applause with phone lights creating a 
-sea of stars, dramatic backlighting, low angle hero shot, 
-anamorphic lens flare, cinematic 16:9, photorealistic, 
-epic award ceremony climax moment
+Abstract camera flash explosion transitioning to pure white light, 
+motion streaks of golden and royal blue (#005bac) light trails, 
+anamorphic lens flare stretching horizontally, 
+cinematic whip-pan blur effect, 
+award ceremony transition moment, photorealistic CGI, 
+speed and energy aesthetic
 ```
 
 ---
 
-### SCENE 08 ― タイトルロゴ・アワード名の表示（82〜95秒）
+### SCENE 03 ― ステージと演出：情熱のパフォーマンス（36〜70秒）
 
-**映像イメージ**
-漆黒の背景に、光の粒子が集まってアワードのタイトルロゴを形成する。ゴールドと白のエレガントなタイポグラフィ。
+**映像コンセプト**
+キーワード「**努力**」を体現。舞台上で輝く人物の真剣な眼差しと研ぎ澄まされた技を見せる。
+
+**カット割り**
+
+| カット | 秒数 | 内容 |
+|--------|------|------|
+| 3-A | 36〜40s | 巨大LEDスクリーン全景。#005bacのレーザー光線が交差する |
+| 3-B | 40〜45s | 観客席のペンライトが揺れる引きの画。海のようなうねり |
+| 3-C | 45〜50s | 受賞者がステージへ上がる煽りアングル（ローアングル） |
+| 3-D | 50〜56s | パフォーマンスの断片（ダンス・歌唱・演奏）を速いカットで連打 |
+| 3-E | 56〜62s | 真剣な眼差しのクローズアップ。汗・集中・感情 |
+| 3-F | 62〜70s | トロフィーを掲げる瞬間のスローモーション。感極まった表情 |
 
 **演出ポイント**
-- 粒子が収束してテキストになるモーションエフェクト
-- BGMが壮大なファンファーレへ
-- ロゴが完成した瞬間に光が爆発
+- 3-D は音楽のビートに完全同期したカット割り
+- 3-E は感情のクローズアップ（「努力」の集大成としての表情）
+- テロップ：部門名を画面下部にゴールド装飾付きで表示
+  - 例：「◯◯ AWARD for EXCELLENCE 2026」
 
-**テキストオーバーレイ**
-**「〇〇 AWARD 2025」**（会社名・アワード名を入れる）
-
-**画像生成プロンプト（英語）**
+**テキストオーバーレイ例**
 ```
-Luxury corporate award title logo formed by converging golden particles 
-on a pure black background, elegant serif typography "EXCELLENCE AWARD 2025" 
-in gold and white, particle effects dissolving into letterforms, 
-dramatic light burst at the moment of text formation, 
-volumetric god rays, cinematic 16:9, photorealistic CGI, 
-prestige brand visual identity, grand reveal moment
+[ 努力賞 ]  ◯◯ AWARD for DEDICATION 2026
+            ゴールド下線装飾 / フォント：モダンセリフ体
+```
+
+**画像生成プロンプト 3-A（英語）**
+```
+Massive indoor arena stage with giant curved LED screen displaying 
+abstract royal blue (#005bac) and white light patterns, 
+multiple laser beams in royal blue crossing the air above the stage, 
+dramatic low-angle shot from stage level looking up, 
+haze machine atmospheric fog, 
+crowd silhouettes in foreground, 
+concert production award ceremony aesthetic, 
+cinematic 16:9, photorealistic 8K, epic scale
+```
+
+**画像生成プロンプト 3-B（英語）**
+```
+Wide aerial shot of a packed arena audience holding illuminated 
+light sticks (royal blue #005bac and white) swaying in unison, 
+creating a wave-like ocean of light, 
+dramatic overhead perspective, 
+stage lights reflecting on the crowd, 
+cinematic color grade, motion blur suggesting movement, 
+emotional scale and unity, photorealistic 8K
+```
+
+**画像生成プロンプト 3-E（英語）**
+```
+Extreme close-up portrait of a performer's face at the moment 
+of peak emotional intensity on stage, 
+sweat glistening under dramatic stage lighting, 
+eyes filled with determination and passion, 
+shallow depth of field, stage light creating rim light on profile, 
+color grade with royal blue (#005bac) highlights, 
+cinematic 85mm portrait lens, raw authentic emotion, 
+award ceremony performance, photorealistic 8K
+```
+
+**画像生成プロンプト 3-F（英語）**
+```
+Slow motion moment of an award recipient raising a golden trophy 
+above their head on a grand stage, tears of joy on their face, 
+dramatic spotlight from above creating god rays, 
+confetti beginning to fall in slow motion, 
+audience blurred in background cheering, 
+royal blue (#005bac) stage lighting accents, 
+low angle hero shot, cinematic 16:9, photorealistic 8K, 
+triumph and overwhelming gratitude
 ```
 
 ---
 
-### SCENE 09 ― エンディング・幕開け（95〜110秒）
+### SCENE 04 ― アワードウィーク：祭典の広がり（71〜90秒）
 
-**映像イメージ**
-会場の幕がゆっくり開いていく映像（もしくは夜明けの光が地平線から広がるイメージ）。「さあ、始まろう」という期待感で締める。
+**映像コンセプト**
+キーワード「**愛**」を体現。人と人、文化と文化が交わる温かい瞬間。
+
+**カット割り**
+
+| カット | 秒数 | 内容 |
+|--------|------|------|
+| 4-A | 71〜75s | 昼間の屋外特設ステージ。空と緑を背景に生き生きとしたパフォーマンス |
+| 4-B | 75〜80s | トークセッションの断片。笑い声・自然な表情 |
+| 4-C | 80〜85s | 街角のストリートパフォーマンス。通行人が足を止めて見入る |
+| 4-D | 85〜90s | 夜のライトアップ会場周辺。観客同士が語り合う温かいシーン |
 
 **演出ポイント**
-- BGMは高揚感のある壮大な音楽でフィニッシュ
-- 明るくなっていく光のグラデーション
-- 最後のコマはほぼホワイトアウトで次の演出へバトンタッチ
+- このシーンのみBGMをやや落ち着かせ、祭典の「温かみ」を演出
+- 「愛」の一文字が画面中央に3秒間ゆっくりフェードイン→フェードアウト
+- 本編の緊張感とのコントラストを意図的に作る
 
-**テキストオーバーレイ**
-なし（ホワイトアウト）
-
-**画像生成プロンプト（英語）**
+**画像生成プロンプト 4-A（英語）**
 ```
-Grand theater curtains of deep navy velvet slowly parting to reveal 
-blinding golden light from beyond, god rays pouring through the opening, 
-dramatic wide shot from audience perspective, warm light flooding 
-forward, sense of beginning and revelation, cinematic 16:9, 
-photorealistic, award ceremony opening act, elegant luxury aesthetic, 
-anticipation and grandeur
+Outdoor daytime music stage in a city park surrounded by 
+trees and blue sky, energetic performer on stage bathed in 
+natural sunlight and royal blue (#005bac) stage lighting accents, 
+enthusiastic crowd in casual elegant attire, 
+wide establishing shot, warm and celebratory atmosphere, 
+festival and culture event aesthetic, 
+cinematic color grade, photorealistic 8K
+```
+
+**画像生成プロンプト 4-D（英語）**
+```
+Evening outdoor venue surroundings with warm ambient lighting, 
+small groups of elegantly dressed people in genuine conversation 
+and laughter, blurred bokeh of venue lights in background, 
+royal blue (#005bac) architectural accent lights, 
+warm human connection moment, 
+shallow depth of field capturing authentic joy, 
+cinematic color grade, photorealistic 8K, 
+sense of community and shared love
 ```
 
 ---
 
-## 補足：カット間トランジション
+### SCENE 05 ― クライマックス：最高潮の瞬間（91〜110秒）
 
-| トランジション | 推奨エフェクト |
-|--------------|--------------|
-| Scene 01 → 02 | 光の爆発でフラッシュカット |
-| Scene 02 → 03 | パーティクルが都市の光に溶け込む |
-| Scene 03 → 04 | ビルの窓の光が人物のバックライトに変化 |
-| Scene 04A → 04B | クロスカット（並行編集） |
-| Scene 05 → 06 | 握手の光がトロフィーの光に変化 |
-| Scene 06 → 07 | トロフィーから紙吹雪が降り始める |
-| Scene 07 → 08 | 紙吹雪がパーティクルに変化しタイトルへ |
-| Scene 08 → 09 | タイトルロゴが光となり幕が開く |
+**映像コンセプト**
+「愛・尊敬・努力」三つのキーワードが融合する頂点。全員で作る感動のフィナーレ。
+
+**カット割り**
+
+| カット | 秒数 | 内容 |
+|--------|------|------|
+| 5-A | 91〜95s | 全出演者がステージに集結した集合ショット（引き） |
+| 5-B | 95〜100s | キャノン砲から金と青の銀テープが爆発的に舞う |
+| 5-C | 100〜104s | 感動的な表情のフラッシュバック連打（尊敬・努力・愛の顔たち） |
+| 5-D | 104〜108s | 会場全体の大俯瞰。ペンライトと銀テープで埋め尽くされた空間 |
+| 5-E | 108〜110s | 最後の一人のクローズアップ。カメラを見つめ微笑む。暗転へ |
+
+**演出ポイント**
+- カット割りをBGMに完全同期させ最高速へ
+- 5-C のフラッシュバックに「愛」「尊敬」「努力」のテキストを瞬間挿入
+- 5-E で暗転後、最終シーンへ
+
+**画像生成プロンプト 5-B（英語）**
+```
+Theatrical confetti cannon explosion on a grand award ceremony stage, 
+streams of golden and royal blue (#005bac) metallic streamers 
+bursting upward and raining down, all award recipients gathered 
+on stage raising hands, massive cheering audience, 
+stage bathed in brilliant white and blue spotlights, 
+motion blur capturing the explosive joy, 
+cinematic ultra-wide shot, photorealistic 8K, 
+peak emotional climax of the night
+```
+
+**画像生成プロンプト 5-D（英語）**
+```
+Dramatic aerial overhead shot of a packed arena at peak celebration, 
+thousands of royal blue (#005bac) and white light sticks illuminating 
+the crowd, golden and blue streamers still floating in the air, 
+stage glowing at the far end, 
+god rays from stage lighting piercing the venue, 
+cinematic top-down perspective, 
+breathtaking scale of human gathering and shared emotion, 
+photorealistic 8K
+```
 
 ---
 
-## GPT image 2.0 使用時の共通スタイル指定
+### SCENE 06 ― FINAL：スタジオ × タイトルロゴ登場（111〜120秒）
 
-各プロンプトの末尾に以下を追加すると統一感が出ます：
+**映像コンセプト**
+祭典の熱狂から静けさへ。スタジオ空間にタイトルロゴが「ドーン」と出現し、余韻を残してクールに消えていく。
+
+**カット割り**
+
+| カット | 秒数 | 内容 |
+|--------|------|------|
+| 6-A | 111〜113s | 会場の暗転→極限まで静かなスタジオ空間が現れる |
+| 6-B | 113〜116s | スタジオの床・壁が#005bacにゆっくり染まっていく |
+| 6-C | 116〜118s | 中央から爆発的にタイトルロゴ「◯◯AWARDS 2026」が出現（ドーン） |
+| 6-D | 118〜120s | ロゴが光の粒子に分解されてクールに消えていく。暗転。無音 |
+
+**演出ポイント**
+- 6-A でBGMが急激にフェードアウト→スタジオの静寂
+- 6-C のロゴ出現時のみ、低音の重い効果音（SE）を一発
+- 6-D は粒子が四方へ流れ消えた後、完全な暗闇で静止 → エンド
+- ロゴは白 × ゴールドのエレガントなタイポグラフィ
+
+**テキストオーバーレイ（最終ロゴ）**
+```
+◯◯AWARDS 2026
+────────────────────────────────
+愛 · 尊敬 · 努力
+```
+
+**画像生成プロンプト 6-A（英語）**
+```
+Vast empty studio space with polished dark concrete floor, 
+high ceiling lost in darkness, 
+single shaft of cool royal blue (#005bac) light 
+descending from above onto the center of the floor, 
+minimalist and dramatic, cinematic wide angle shot, 
+eerie silence and anticipation, 
+color palette: near-black with blue accent light, 
+photorealistic 8K, award ceremony final title card mood
+```
+
+**画像生成プロンプト 6-B（英語）**
+```
+A dark minimalist studio space slowly being washed in royal blue 
+(#005bac) light from floor upward, light gradients transitioning 
+from deep navy to vivid royal blue, 
+fog machine haze creating depth, 
+reflective dark floor creating perfect mirror symmetry, 
+no objects — pure space and light, 
+cinematic 16:9, photorealistic CGI, 
+breathtaking simplicity, pre-logo reveal atmosphere
+```
+
+**画像生成プロンプト 6-C（英語）**
+```
+Dramatic explosion of light revealing a corporate award logo 
+"◯◯AWARDS 2026" in the center of a dark royal blue studio, 
+large elegant white and gold serif typography, 
+concentric shockwave rings of light expanding outward from the logo, 
+particle burst effect, volumetric light rays in royal blue (#005bac), 
+reflective floor creating mirror image below, 
+cinematic ultra-wide 16:9, photorealistic CGI, 
+IMAX-scale presence, 
+this is the hero moment — powerful and unforgettable
+```
+
+**画像生成プロンプト 6-D（英語）**
+```
+Corporate award logo beginning to dissolve into thousands of 
+tiny royal blue (#005bac) and gold light particles, 
+particles drifting outward and upward in elegant spirals, 
+text becoming pure light energy dispersing into darkness, 
+long exposure motion blur trails on each particle, 
+deep black background, 
+cinematic slow motion dissolution sequence, 
+photorealistic CGI 8K, 
+final moment — cool, majestic, and memorable
+```
+
+---
+
+## カット間トランジション一覧
+
+| 区間 | トランジション手法 |
+|------|------------------|
+| SC01 → SC02 | #005bacの光の波がカーペットの青い光へ溶け込む |
+| SC02 → SC03 | フォトフラッシュの白光→ステージのレーザーへ変化 |
+| SC03-A → SC03-D | ビートに同期したハードカット |
+| SC03 → SC04 | トロフィーの金光が屋外の太陽光へグラデーション |
+| SC04 → SC05 | 夜のペンライトの群れが集結ショットへスマッシュカット |
+| SC05-E → SC06-A | 暗転（0.5秒）→スタジオの静寂 |
+| SC06-C → SC06-D | ロゴSE一発→粒子化→完全暗転 |
+
+---
+
+## GPT image 2.0 共通スタイル指定
+
+各プロンプトの末尾に以下を追加して統一感を出します：
 
 ```
---style cinematic --aspect 16:9 --quality high
-color grade: teal-orange complementary, anamorphic lens aesthetic, 
-film grain subtle, high contrast, photorealistic render
+Style suffix:
+cinematic 16:9 aspect ratio, anamorphic lens aesthetic, 
+subtle film grain, high contrast color grade, 
+royal blue (#005bac) as dominant accent color, 
+photorealistic render, 8K resolution, 
+award ceremony / corporate event visual language
 ```
+
+---
+
+## キーワード演出マッピング
+
+| キーワード | 対応シーン | 演出方法 |
+|-----------|-----------|---------|
+| 愛 | SC04（祭典）/ SC05-C（フラッシュバック） | 人と人の温かい交流、観客のペンライトの海 |
+| 尊敬 | SC02（レッドカーペット） / SC03-F（トロフィー） | 一人ひとりを丁寧に映す / トロフィーを捧げる姿 |
+| 努力 | SC03-E（真剣な眼差し） / SC03-D（パフォーマンス） | 汗・集中・技のクローズアップ |
 
 ---
 
 ## 制作メモ
 
-- **尺の調整**：各シーンの秒数は目安。音楽のビートに合わせて前後させてください。
-- **ロゴ挿入**：Scene 08 のプロンプトの `"EXCELLENCE AWARD 2025"` 部分を実際のアワード名に変更してください。
-- **カラーコード統一**：ゴールド `#C9A84C`、ネイビー `#0D1B2A`、ホワイト `#F5F0E8` を基準に。
-- **音楽**：Two Steps From Hell / Really Slow Motion / Audiomachine などのトレーラー系音楽が雰囲気に合います。
+- **ロゴ差し替え**：プロンプト内の `◯◯AWARDS 2026` を実際の企業名・アワード名に変更してください。
+- **カラー一貫性**：すべてのシーンで `#005bac` のアクセントライトを意識。既存素材の補正にも同色グレーディングを適用。
+- **最終カット（SC06）の重要性**：ここが視聴者の記憶に最も残る。ロゴSEの音量・タイミングにこだわること。
+- **推奨BGM系統**：Hans Zimmer × Electronic系。「Time（Inception）」的な静寂からの爆発感が理想。
+- **テロップフォント案**：見出し＝モダンセリフ（Bodoni / Playfair Display）、キーワード＝細ゴシック（細字サンセリフ）
 
 ---
 
-*作成日：2026-05-14*
+*作成日：2026-05-14 ／ 参照：MUSIC AWARDS JAPAN 2025 ダイジェスト映像構成*
